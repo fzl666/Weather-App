@@ -30,8 +30,8 @@ $(array[i-1]).text(tomorrow)
 
 
 function weatherToday(city){
-  var current = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+apikey
-  var future = "http://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid="+apikey
+  var current = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+apikey
+  var future = "https://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid="+apikey
 
   $.ajax({
     url: current,
