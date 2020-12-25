@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    width: 100%;
   }
   
 
@@ -78,7 +79,7 @@ body {
 
 #sidebar{
     background-color: rgb(146, 168, 170);
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 #iname{
