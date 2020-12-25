@@ -3,7 +3,7 @@
 Simple weather Dashboard
 
 ## Quick Access
-[Main page](https://fzl666.github.io/Day-Planner/)
+[Main page](https://fzl666.github.io/Weather-App/index.html)
 
 ## Features
 
