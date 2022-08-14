@@ -7,11 +7,15 @@ body {
   
 
 .header{
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(12, 73, 75);
-    color: cornsilk;
-    font-size: 40px;
+  background: -webkit-linear-gradient(rgba(255,0,0,0),cornsilk );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  color: cornsilk;
+  font-size: 45px;
+  background-color: rgb(61, 136, 141);
 }
 #app{
   width: 100%;
@@ -61,7 +65,8 @@ body {
 
 #search{
     background: cornsilk;
-    border-style: ssolid;
+    border-style: solid;
+    border-color: rgb(61, 136, 141);
     color:  rgb(12, 73, 75);
     width: 100%;
     margin-top: 5px;
@@ -69,13 +74,12 @@ body {
 
 #searchbar{
     width: 100%;
-    margin-top: 10px;
+    
 }
 
 .five{ 
     padding: 5%;
-    color: cornsilk;
-    background-color: rgb(61, 136, 141);
+    color: rgb(61, 136, 141);
     margin: 0;
 }
 
@@ -95,7 +99,7 @@ body {
 }
 
 #sidebar{
-    background-color: rgb(146, 168, 170);
+    padding: 0;
     margin-left: 10px;
 }
 #list{
@@ -113,7 +117,7 @@ body {
         float: none; 
         width: 100%;
     }
-    .icon
+    img
     { margin:0;
     width:80px;
     float: right;
