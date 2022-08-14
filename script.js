@@ -55,28 +55,28 @@ $.ajax({
 }).then(function(response) {
   $("#amain").attr("src","http://openweathermap.org/img/wn/"+response.list[7].weather[0].icon+"@2x.png")
   //$("#adate").text(response.list[7])
-  $("#atemp").text("Temperature: "+response.list[7].main.temp+"℃")
-  $("#ahumi").text("Humidity: "+response.list[7].main.humidity+"%")
+  $("#atemp").text(response.list[7].main.temp+"℃")
+
 
   $("#bmain").attr("src","http://openweathermap.org/img/wn/"+response.list[14].weather[0].icon+"@2x.png")
   //$("#adate").text(response.list[7])
-  $("#btemp").text("Temperature: "+response.list[14].main.temp+"℃")
-  $("#bhumi").text("Humidity: "+response.list[14].main.humidity+"%")
+  $("#btemp").text(response.list[14].main.temp+"℃")
+ 
   
   $("#cmain").attr("src","http://openweathermap.org/img/wn/"+response.list[21].weather[0].icon+"@2x.png")
   //$("#adate").text(response.list[7])
-  $("#ctemp").text("Temperature: "+response.list[21].main.temp+"℃")
-  $("#chumi").text("Humidity: "+response.list[21].main.humidity+"%")
+  $("#ctemp").text(response.list[21].main.temp+"℃")
+  
 
   $("#dmain").attr("src","http://openweathermap.org/img/wn/"+response.list[28].weather[0].icon+"@2x.png")
   //$("#adate").text(response.list[7])
-  $("#dtemp").text("Temperature: "+response.list[28].main.temp+"℃")
-  $("#dhumi").text("Humidity: "+response.list[28].main.humidity+"%")
+  $("#dtemp").text(response.list[28].main.temp+"℃")
+  
 
   $("#emain").attr("src","http://openweathermap.org/img/wn/"+response.list[35].weather[0].icon+"@2x.png")
   //$("#adate").text(response.list[7])
-  $("#etemp").text("Temperature: "+response.list[35].main.temp+"℃")
-  $("#ehumi").text("Humidity: "+response.list[35].main.humidity+"%")
+  $("#etemp").text(response.list[35].main.temp+"℃")
+
 
  //24/3=8 taking every 7th item in the array as sample because I don't have the startup subscribtion for daily 16 days forcast :(
 

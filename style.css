@@ -49,6 +49,14 @@ body {
     background-color:  rgb(61, 136, 141) !important; 
     color: #ffffff; 
   }
+
+.col-small{
+  position: relative;
+  float:left;
+  width: 20%;
+  padding-right: 10px;
+  padding-left: 10px;}
+
 #search{
     background: cornsilk;
     border-style: ssolid;
@@ -62,27 +70,52 @@ body {
     width: 100%;
 }
 
-.five{
-    padding: 10px;
+.five{ 
+    padding: 5%;
     color: cornsilk;
     background-color: rgb(61, 136, 141);
+    margin: 0;
 }
 
 #cityinfo{
     width: 100%;
-    margin-bottom: 30px;
+    height:40%;
+    margin: 10px;
+    margin-top:0px;   
 }
 
-#forecast{
+#forecast{    
     width: 100%;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #sidebar{
     background-color: rgb(146, 168, 170);
-    margin-right: 30px;
+    
+    margin-left: 10px;
 }
 
-#iname{
-  
+#iname{ 
   font-weight: bold;
+}
+
+.icon{
+
+}
+@media all and (max-width:800px) 
+{
+  .col-small
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+    .icon
+    { margin:0;
+    width:80px;
+    float: right;
+    }
 }
