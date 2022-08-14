@@ -13,7 +13,9 @@ body {
     color: cornsilk;
     font-size: 40px;
 }
-
+#app{
+  width: 100%;
+}
 .autocomplete {
     position: relative;
     display: inline-block;
@@ -66,8 +68,8 @@ body {
 }
 
 #searchbar{
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .five{ 
@@ -94,16 +96,14 @@ body {
 
 #sidebar{
     background-color: rgb(146, 168, 170);
-    
     margin-left: 10px;
 }
-
+#list{
+  overflow: hidden;
+  text-overflow: ellipsis
+}
 #iname{ 
   font-weight: bold;
-}
-
-.icon{
-
 }
 @media all and (max-width:800px) 
 {
